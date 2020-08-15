@@ -21,8 +21,6 @@ df <- data.frame(a,b,c,d)
 
 df
 
-
-
 #We can see the column headers have the same name as the variables. 
 
 #We can change the column name with the function names()
@@ -56,8 +54,6 @@ View(df) #To view data set in table form in new tab
 # class command give the type of data structure
 class(df) # DF
 
-----------------------------------------------------------
-
 summary(df) #summary
 
 #Slice Data Frame: 
@@ -65,11 +61,9 @@ summary(df) #summary
 #We select rows and columns to return into bracket preceded by the name of the data frame
 
 
-
 ## Select row 1 in column 2
 
 df[1,2]
-
 
 
 ## Select Rows 1 to 2
@@ -77,18 +71,14 @@ df[1,2]
 df[1:2,]
 
 
-
 ## Select Columns 1
 
 df[,1]
 
 
-
 ## Select Rows 1 to 3 and columns 3 to 4
 
 df[1:3, 3:4]
-
-
 
 #It is also possible to select the columns with their names.
 
@@ -109,7 +99,6 @@ quantity <- c(10, 35, 40, 5)
 df$quantity <- quantity
 
 df
-
 
 
 #Note:The number of elements in the vector has to be equal to the no of elements in data frame. 
